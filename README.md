@@ -9,7 +9,7 @@ Leitura de veículos por faixa para a alteração do tempo de sinal vermelho a f
 $ git clone https://github.com/emiletaise/semaforoInteligente.git
 
 # Entre na pasta do projeto
-$ cd Trabalho-complexidade
+$ cd semaforoInteligente
 
 # Instale as dependências
 $ pip3 install -r requirements.txt
