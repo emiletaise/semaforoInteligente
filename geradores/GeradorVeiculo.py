@@ -36,6 +36,10 @@ class GeradorVeiculo:
     # o código então passa a adicionar ou remmover de forma exponencial o número de veículos naquela faixa.
     # Isso indica que o tempo do vermelho vai ser reduzido ou acrescentado de forma exponencial também.
 
+    # O algoritmo em si não gera uma situação de necessidade de processamento por força bruta, pois ele ainda está limitado pelo 
+    # número de iterações controlado por 2 ** i, onde i é um parâmetro passado para a função. Isso significa que o número de iterações 
+    # cresce exponencialmente à medida que i aumenta, mas ainda é previsível e finito.
+    
     def gerar_veiculos_exponencial(agenteTransito, i, f):
         for x in range(2 ** i):
             placa = f"ABC-{i}"
