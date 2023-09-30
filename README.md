@@ -17,3 +17,4 @@ $ pip3 install -r requirements.txt
 # Execução
 
 Execute o arquivo main.py
+
